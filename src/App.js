@@ -5,7 +5,7 @@ import axios from 'axios';
 import { useState } from 'react';
 import QRCode from 'react-qr-code';
 function App() {
-  let account = "0xe2B6577e17317e56b6D007056Cc6ed449443C1dF";
+  let account = "0xfacFf2a809ec6025560B41Da9049199F7C437F4";
   axios.defaults.headers.common['x-auth-accountAddress'] = account
   const [state, setState] = useState({
     image: null,
